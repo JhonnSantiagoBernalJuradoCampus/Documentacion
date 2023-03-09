@@ -1,4 +1,4 @@
 //Operadores Aritmeticos (libreria matematica)
-//Metodo Math.ceil, Math.ceil() La función Math.ceil() devuelve el entero mayor o igual más próximo a un número dado.
-alert(Math.ceil(.95));
-//En este caso El resultado sera 1 
+//Metodo Math.floor(), La siguiente función devuelve el valor entero redondeado más bajo de la variable x:
+alert(Math.floor(15.65))
+//El resultado es 15 ya que es el entero anterior
