@@ -1,4 +1,6 @@
 //Operadores Aritmeticos (libreria matematica)
-//Metodo Math.trunc La función Math.trunc() devuelve la parte entera de un numero removiendo cualquier dígito decimal (dígitos situados después de la coma).
-alert(Math.trunc(15.65543656547654566))
-//El resultado es 15
+//Metodo .toFixed, Este metodo retorna el valor con el numero de decimales que uno desea ver y lo redondea
+num1 = 15.8769;
+decimales = Number.parseFloat(num1.toFixed(2));
+alert(decimales)
+//El resultado es 15.88 
