@@ -1,7 +1,9 @@
-//Operadores de comparaciòn
-//Operador Menor o igual (<=), Devuelve true si el operando izquierdo es menor o igual que el operando derecho.
+//Operadores logicos
+//Operador AND Lógico (&&), uso expr1 && expr2, Devuelve expr1 si se puede convertir a false; de lo contrario, devuelve expr2. Por lo tanto, cuando se usa con valores booleanos, && devuelve true si ambos operandos son true; de lo contrario, devuelve false.
 num1 = 15;
-num2 = 15;
-boleano = num1 < num2;
-alert(boleano);
-//El resultado sera true, en este caso es true ya que 15 es menor o igual que 15
+num2 = 17;
+num3 = 23;
+boleano = num2 > num1;
+boleano2 = num2 < num3;
+alert(boleano && boleano2);
+//El resultado sera true ya que las dos condiciones son verdaderas
