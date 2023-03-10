@@ -1,7 +1,8 @@
 //Propiedades de los string
-//Metodo search()
-//El metodo search() busca una cadena para un valor especificado y devuelve la posición del partido. El valor de búsqueda puede ser de cadena o una expresión regular. Este método devuelve -1 si no se encuentra ninguna coincidencia.
-let cadena = "Hola Mundo";
-let indice = cadena.search("Mundo");
-alert(indice);  
-//El resultado es 5 ya que el valor se encuentra en la posicion 5 de la cadena de texto
+//Metodo localeCompare
+//El metodo compara dos cadenas en la configuración regional actual, devuelve en un criterio entre -1 y 1 (-1 para before 0 para equal y 1 para after)
+let cadena = "abcd";
+let cadena2 = "efgh";
+let criterio = cadena.localeCompare(cadena2);
+alert(criterio)
+//El resultado es -1 ya que va antes
