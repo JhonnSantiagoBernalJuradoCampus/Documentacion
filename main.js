@@ -1,10 +1,9 @@
 //Propiedades de los string
-//Metodo concat()
-//El método concat() combina dos o más cadenas de texto y devuelve una cadena de texto nueva.
+//Metodo indexOf
+//El método indexOf() devuelve el índice, dentro del objeto String que realiza la llamada, de la primera ocurrencia del valor especificado, comenzando la búsqueda desde indiceDesde; o -1 si no se encuentra dicho valor.
 
 
-let cadena = "Hola";
-let cadena2 = "Mundo";
-let cadenaUnida = cadena.concat(' ', cadena2);
-alert(cadenaUnida);
-//El resultado es Hola Mundo
+let cadena = "Santiago Bernal";
+let posicion = cadena.indexOf("t");
+alert(posicion)
+//El resultado es 3 ya que se encuentra en ese indice el valor "t"
