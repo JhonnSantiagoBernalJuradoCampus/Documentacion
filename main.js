@@ -1,4 +1,10 @@
 //Propiedades de los string
-//Metodo fromCharCode()
-//El String.fromCharCode() método estático que devuelve una cadena creada mediante el uso de una secuencia de valores ASCII.
-alert(String.fromCharCode(65,66,67))
+//Metodo concat()
+//El método concat() combina dos o más cadenas de texto y devuelve una cadena de texto nueva.
+
+
+let cadena = "Hola";
+let cadena2 = "Mundo";
+let cadenaUnida = cadena.concat(' ', cadena2);
+alert(cadenaUnida);
+//El resultado es Hola Mundo
