@@ -1,6 +1,6 @@
-//Operadores Aritmeticos (libreria matematica)
-//Metodo .toFixed, Este metodo retorna el valor con el numero de decimales que uno desea ver y lo redondea
-num1 = 15.8769;
-decimales = Number.parseFloat(num1.toFixed(2));
-alert(decimales)
-//El resultado es 15.88 
+//Propiedades de los string
+//Propiedad .length, Devuelve el numero de caracteres de una cadena de texto
+let cadena = "Hola Mundo"
+cantidad = cadena.length
+alert(cantidad)
+//El resultado es 10 ya que ese es el numero de caracteres contando el espacio
