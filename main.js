@@ -1,7 +1,8 @@
 //Propiedades de los string
-//Metodo substring
-//El metodo substring El substring() método devuelve un subconjunto de un objeto String.
-let cadena = "Hola mundo";
-let resultado = cadena.substring(0,4);
-alert(resultado);
-//El resultado es Hola
+//Metodo split
+//El método split() divide un objeto de tipo String en un array (vector) de cadenas mediante la separación de la cadena en subcadenas.
+let cadena = "Hola Mundo Nuevo";
+let split = cadena.split(" ");
+alert(split);
+//El resultado es Hola,Mundo,Nuevo
+//Lo que hace es separarlo por el parameto " "
