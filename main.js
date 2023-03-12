@@ -1,6 +1,6 @@
 //Propiedades de los string
-//Metodo matchAll
-//El método matchAll()devuelve un iterador de todos los resultados que coinciden con una cadena contra una expresión regular,incluyendo los grupos de captura.
-let cadena = "Hola Mundo Mundo Mundo Mundo Mundo Mundo";
-let resultado = [...cadena.matchAll(/Mundo/g)];
-alert(resultado)
+//Metodo repeat
+//El método repeat() construye y devuelve una nueva cadena que contiene el número especificado de copias de la cadena en la cual fue llamada, concatenados.
+let cadena = "Hola mundo ";
+let repetir = cadena.repeat(3);
+alert(repetir);
