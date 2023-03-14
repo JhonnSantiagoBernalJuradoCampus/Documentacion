@@ -1,7 +1,14 @@
-//Propiedades de los string
-//Metodo trim
-//El método trim( ) elimina los espacios en blanco en ambos extremos del string. Los espacios en blanco en este contexto, son todos los caracteres sin contenido (espacio, tabulación, etc.) y todos los caracteres de nuevas lineas (LF,CR,etc.).
-let cadena = "           Hola           ";
-alert(cadena)
-let trim = cadena.trim();
-alert(trim)
+//Funciones
+//Funcion por declaracion
+//Estructura = function nombre(p1, p2...) { }
+
+
+function saludar() {
+    return "Hola";
+}
+saludar(); // 'Hola'
+typeof saludar; // 'function'
+
+
+alert(saludar())
+console.log(typeof(saludar));
