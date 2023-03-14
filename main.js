@@ -1,13 +1,13 @@
 //Funciones
-//Funciones aninomas
-//Estructura = const nombre = function () {}
-
-
-const saludo = function () {
-    return "Hola";
+//Funciones Callbacks
+//Las funciones Callbacks guardan una funcion anonima como parametro y el parametro es el que se ejecuta
+// fB = Función B
+const fB = function () {
+    alert("Función B ejecutada.");
 };
 
-
-alert(saludo);  // ƒ () { return 'Hola'; }
-alert(saludo());  // 'Hola'
-console.log(typeof(saludo));
+// fA = Función A
+const fA = function (callback) {
+callback();
+};
+(fA(fB)) 
