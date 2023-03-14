@@ -1,9 +1,13 @@
 //Funciones
-//Funcion como objeto
-//Estructura = new Function(p1, p2..., code);
-const saludar = new Function("return 'Hola';");
+//Funciones aninomas
+//Estructura = const nombre = function () {}
 
-saludar(); // 'Hola'
 
-alert(saludar());
-console.log(typeof(saludar));
+const saludo = function () {
+    return "Hola";
+};
+
+
+alert(saludo);  // ƒ () { return 'Hola'; }
+alert(saludo());  // 'Hola'
+console.log(typeof(saludo));
