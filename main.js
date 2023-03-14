@@ -1,13 +1,11 @@
 //Funciones
-//Funciones Callbacks
-//Las funciones Callbacks guardan una funcion anonima como parametro y el parametro es el que se ejecuta
-// fB = Función B
-const fB = function () {
-    alert("Función B ejecutada.");
-};
+//Funciones autoejecutables
+// Función autoejecutable
 
-// fA = Función A
-const fA = function (callback) {
-callback();
-};
-(fA(fB)) 
+(function () {
+    console.log("Hola mundo");
+})();
+// Función autoejecutable con parámetros
+(function (name) {
+    console.log(`Hola, ${name}`);
+})("Santiago");
