@@ -1,16 +1,9 @@
 //Funciones
-//Clausuras
-// Clausura: Función incr()
+//Funciones flecha
+const funcionT = function () {
+  return "Función tradicional.";
+};
 
-const incr = (function () {
-    let num = 0;
-    return function () {
-        num++;
-        return num;
-    };
-})();
-
-console.log(typeof(incr));
-console.log(incr());
-console.log(incr());
-console.log(incr());
+const funcionF = () => {
+  return "Función flecha.";
+};
