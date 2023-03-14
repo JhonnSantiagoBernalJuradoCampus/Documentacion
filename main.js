@@ -1,14 +1,14 @@
 //Funciones
-//Funcion por declaracion
-//Estructura = function nombre(p1, p2...) { }
+//Funcion por expresion
+//Estructura let nombre = function(p1, p2...) { }
 
 
-function saludar() {
+// El segundo "saludar" (nombre de la función) se suele omitir: es redundante
+const saludo = function saludar() {
     return "Hola";
-}
-saludar(); // 'Hola'
-typeof saludar; // 'function'
+};
 
+saludo(); // 'Hola'
 
-alert(saludar())
-console.log(typeof(saludar));
+alert(saludo());
+console.log(typeof(saludo));
