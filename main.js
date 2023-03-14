@@ -1,14 +1,9 @@
 //Funciones
-//Funcion por expresion
-//Estructura let nombre = function(p1, p2...) { }
+//Funcion como objeto
+//Estructura = new Function(p1, p2..., code);
+const saludar = new Function("return 'Hola';");
 
+saludar(); // 'Hola'
 
-// El segundo "saludar" (nombre de la función) se suele omitir: es redundante
-const saludo = function saludar() {
-    return "Hola";
-};
-
-saludo(); // 'Hola'
-
-alert(saludo());
-console.log(typeof(saludo));
+alert(saludar());
+console.log(typeof(saludar));
