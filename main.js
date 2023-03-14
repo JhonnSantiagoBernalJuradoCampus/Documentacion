@@ -1,11 +1,16 @@
 //Funciones
-//Funciones autoejecutables
-// Función autoejecutable
+//Clausuras
+// Clausura: Función incr()
 
-(function () {
-    console.log("Hola mundo");
+const incr = (function () {
+    let num = 0;
+    return function () {
+        num++;
+        return num;
+    };
 })();
-// Función autoejecutable con parámetros
-(function (name) {
-    console.log(`Hola, ${name}`);
-})("Santiago");
+
+console.log(typeof(incr));
+console.log(incr());
+console.log(incr());
+console.log(incr());
